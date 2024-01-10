@@ -1,0 +1,89 @@
+.frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1362px;
+    height: 623px;
+    object-fit: cover;
+  }
+  .travel-like-never {
+    position: absolute;
+    top: 32px;
+    left: 931px;
+    display: inline-block;
+    background: linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)), #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 389px;
+    height: 499px;
+  }
+  .frame1 {
+    position: relative;
+    width: 1362px;
+    height: 623px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-item {
+    position: relative;
+    width: 714px;
+    height: 499px;
+    object-fit: cover;
+  }
+  .hotels-are-the {
+    margin: 0;
+  }
+  .hotels-are-the-container {
+    position: relative;
+    display: inline-block;
+    width: 380px;
+    height: 483px;
+    flex-shrink: 0;
+  }
+  .frame,
+  .frame2 {
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+  }
+  .frame2 {
+    width: 1181px;
+    height: 499px;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 87px;
+    position: undefined;
+    margin-right: 179px;
+    font-size: 48px;
+    font-family: var(--font-alfa-slab-one);
+  }
+  .frame {
+    width: 1362px;
+    height: 1157px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 35px;
+  }
+  .desktop-1-child {
+    position: relative;
+    background-color: var(--black);
+    width: 1440px;
+    height: 425px;
+  }
+  .desktop-1 {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 1700px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 132px;
+    text-align: left;
+    font-size: 96px;
+    color: var(--black);
+    font-family: var(--font-allan);
+  }
